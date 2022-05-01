@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaInterfaceAuto" />
+        <module name="extentReport" />
         <module name="javaTestNG" />
       </profile>
     </annotationProcessing>

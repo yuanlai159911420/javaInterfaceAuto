@@ -9,23 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-<!--    <groupId>org.example</groupId>-->
-    <artifactId>javaTestNG</artifactId>
-<!--    <version>1.0-SNAPSHOT</version>-->
+    <artifactId>extentReport</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.5</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
-
 
 </project>
