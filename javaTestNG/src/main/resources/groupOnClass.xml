@@ -12,6 +12,7 @@
     <test name="runOnlyStudent">
         <groups>
             <run>
+<!--                name="student" 表示只运行 groups = "student" 的组-->
                 <include name="student"/>
             </run>
         </groups>
