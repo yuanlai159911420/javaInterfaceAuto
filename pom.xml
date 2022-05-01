@@ -11,6 +11,7 @@
 
     <modules>
         <module>javaTestNG</module>
+        <module>extentReports</module>
     </modules>
 
 </project>
