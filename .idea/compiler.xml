@@ -7,9 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="extentReport" />
         <module name="javaTestNG" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exportReport" target="1.8" />
+      <module name="extentReport" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
