@@ -6,7 +6,7 @@ public class DependTest {
 
     @Test
     public void test1(){
-        System.out.println("test1 run");
+        System.out.println("timeOutSuccess run");
     }
 
     @Test(dependsOnMethods = {"test1"})
