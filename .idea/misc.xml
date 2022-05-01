@@ -11,6 +11,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/extentReport/pom.xml" />
+        <option value="$PROJECT_DIR$/mocoInterfaces/pom.xml" />
       </set>
     </option>
   </component>

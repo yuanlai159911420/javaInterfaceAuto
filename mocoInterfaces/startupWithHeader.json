@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个带header信息的post请求",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "王五",
+        "age": "20"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "code": 100,
+        "msg": "操作成功"
+      }
+    }
+  }
+]

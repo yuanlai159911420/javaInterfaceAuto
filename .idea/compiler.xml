@@ -14,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="exportReport" target="1.8" />
       <module name="extentReport" target="1.8" />
+      <module name="mocoInterfaces" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

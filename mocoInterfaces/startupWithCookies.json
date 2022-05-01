@@ -1,0 +1,56 @@
+[
+  {
+    "description": "这是一个带cookies信息的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      },
+      "queries": {
+        "name": "张三"
+      }
+    },
+    "response": {
+      "text": "这是moco的一个带cookies信息的get请求"
+    }
+  },
+  {
+    "description": "这是一个带cookies信息的post请求",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "forms": {
+        "name": "胡汉三",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "这是moco的一个带cookies信息的post请求"
+    }
+  },
+  {
+    "description": "这是一个带json数据的post请求",
+    "request": {
+      "uri": "/post/with/json",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "李四",
+        "sex": "男"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "code": 1,
+        "msg": "返回一个json格式的数据"
+      }
+    }
+  }
+]
