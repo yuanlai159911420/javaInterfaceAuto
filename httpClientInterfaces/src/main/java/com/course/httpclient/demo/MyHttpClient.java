@@ -21,7 +21,7 @@ public class MyHttpClient {
         String result;
         HttpGet httpGet = new HttpGet("https://www.baidu.com");
         // 用户执行get方法
-        HttpClient httpClient = new DefaultHttpClient();
+//        HttpClient httpClient = new DefaultHttpClient();
         HttpClient client = HttpClientBuilder.create().build();
         // 访问百度，获取访问结果
         HttpResponse httpResponse = client.execute(httpGet);

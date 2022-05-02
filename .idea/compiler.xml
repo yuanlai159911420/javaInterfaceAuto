@@ -21,10 +21,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="extentReports" options="" />
-      <module name="httpClientInterfaces" options="" />
-      <module name="javaTestNG" options="" />
-      <module name="springboot" options="" />
+      <module name="extentReports" options="-parameters" />
+      <module name="httpClientInterfaces" options="-parameters" />
+      <module name="javaTestNG" options="-parameters" />
+      <module name="springboot" options="-parameters" />
     </option>
   </component>
 </project>

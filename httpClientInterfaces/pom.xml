@@ -20,6 +20,12 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.13</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
@@ -27,13 +33,24 @@
             <version>7.5</version>
             <scope>compile</scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.json</groupId>-->
+<!--            <artifactId>json</artifactId>-->
+<!--            <version>20220320</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${basedir}/lib/json-20220320.jar</systemPath>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20220320</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/json-20220320.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
         </dependency>
     </dependencies>
+
 
 </project>
