@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="extentReports" />
         <module name="javaTestNG" />
+        <module name="httpClientInterfaces" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
