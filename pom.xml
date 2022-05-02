@@ -13,6 +13,7 @@
         <module>javaTestNG</module>
         <module>extentReports</module>
         <module>httpClientInterfaces</module>
+        <module>springboot</module>
     </modules>
 
 </project>
