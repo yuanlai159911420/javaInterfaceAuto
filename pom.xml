@@ -21,6 +21,7 @@
         <module>extentReports</module>
         <module>httpClientInterfaces</module>
         <module>springboot</module>
+        <module>Mybatis</module>
     </modules>
 
 </project>
