@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.model">
+<!--    获取登陆接口case-->
+    <select id="loginCase" parameterType="Integer" resultType="com.course.model.LoginCase">
+        select * from course.loginCase
+        where id = #{id};
+    </select>
+
+<!--    添加用户接口case-->
+    <select id="addUserCase" parameterType="Integer" resultType="com.course.model.AddUserCase">
+        select * from course.addUserCase where id = #{id};
+    </select>
+
+<!--    获取用户信息case-->
+    <select id="getUserInfoCase" parameterType="Integer" resultType="com.course.model.GetUserInfoCase">
+        select * from course.getUserInfoCase where id = #{id};
+    </select>
+
+<!--    获取用户列表case-->
+    <select id="getUserListCase" parameterType="Integer" resultType="com.course.model.GetUserListCase">
+        select * from course.getUserListCase where id = #{id};
+    </select>
+
+<!--    更新用户信息case-->
+    <select id="updateUserInfoCase" parameterType="Integer" resultType="com.course.model.UpdateUserInfoCase">
+        select * from course.updateUserInfoCase where id = #{id};
+    </select>
+</mapper>
