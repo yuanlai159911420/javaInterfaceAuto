@@ -22,6 +22,8 @@
         <module>httpClientInterfaces</module>
         <module>springboot</module>
         <module>Mybatis</module>
+        <module>MybatisMySQL</module>
+        <module>testNGMyBatis</module>
     </modules>
 
 </project>

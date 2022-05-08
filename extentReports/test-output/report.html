@@ -5,10 +5,10 @@
 
 <head>
 	<meta charset='utf-8' /> 
-	<meta name='description' content='' />
-	<meta name='robots' content='noodp, noydir' />
-	<meta name='viewport' content='width=device-width, initial-scale=1' />
-	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	<meta username='description' content='' />
+	<meta username='robots' content='noodp, noydir' />
+	<meta username='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" username="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
 	
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,8 +35,8 @@
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
-		<!-- report name -->
-		<span class='report-name'>ExtentReports</span>
+		<!-- report username -->
+		<span class='report-username'>ExtentReports</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -117,7 +117,7 @@
 	<div id='charts-row' class='row nm-v nm-h'>
 		<div class='col s12 m6 l6 np-h'>
 			<div class='card-panel nm-v'>
-				<div class='left panel-name'>Tests</div>
+				<div class='left panel-username'>Tests</div>
 				<div class='chart-box'>
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
@@ -132,7 +132,7 @@
 		
 		<div class='col s12 m6 l6 np-h'>
 			<div class='card-panel nm-v'>
-				<div class='left panel-name'>Steps</div>
+				<div class='left panel-username'>Steps</div>
 				<div class='chart-box'>
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
@@ -157,7 +157,7 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>extentReports</span>
+						<span class='test-username'>extentReports</span>
 						<span class='test-time'>May 1, 2022 07:44:23 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
@@ -171,7 +171,7 @@
 		
 				<li class='node level-1  fail' status='fail' test-id='2'>
 					<div class='collapsible-header'>
-						<div class='node-name'>extent</div>						
+						<div class='node-username'>extent</div>
 						<span class='node-time'>May 1, 2022 07:44:23 PM</span>
 						<span class='node-duration'>0h 0m 0s+44ms</span>
 						<span class='test-status right fail'>fail</span>
@@ -199,7 +199,7 @@
 						<ul class='collapsible node-list' data-collapsible='accordion'>
 				<li class='node level-2 leaf pass' status='pass' test-id='3'>
 					<div class='collapsible-header'>
-						<div class='node-name'>test1</div>						
+						<div class='node-username'>test1</div>
 						<span class='node-time'>May 1, 2022 07:44:23 PM</span>
 						<span class='node-duration'>0h 0m 0s+3ms</span>
 						<span class='test-status right pass'>pass</span>
@@ -227,7 +227,7 @@
 				</li>
 				<li class='node level-2 leaf fail' status='fail' test-id='4'>
 					<div class='collapsible-header'>
-						<div class='node-name'>test2</div>						
+						<div class='node-username'>test2</div>
 						<span class='node-time'>May 1, 2022 07:44:23 PM</span>
 						<span class='node-duration'>0h 0m 0s+5ms</span>
 						<span class='test-status right fail'>fail</span>
@@ -287,7 +287,7 @@
 				</li>
 				<li class='node level-2 leaf pass' status='pass' test-id='5'>
 					<div class='collapsible-header'>
-						<div class='node-name'>test3</div>						
+						<div class='node-username'>test3</div>
 						<span class='node-time'>May 1, 2022 07:44:23 PM</span>
 						<span class='node-duration'>0h 0m 0s+0ms</span>
 						<span class='test-status right pass'>pass</span>
@@ -315,7 +315,7 @@
 				</li>
 				<li class='node level-2 leaf fail' status='fail' test-id='6'>
 					<div class='collapsible-header'>
-						<div class='node-name'>logDemo</div>						
+						<div class='node-username'>logDemo</div>
 						<span class='node-time'>May 1, 2022 07:44:23 PM</span>
 						<span class='node-duration'>0h 0m 0s+1ms</span>
 						<span class='test-status right fail'>fail</span>
@@ -384,7 +384,7 @@
 
 	<div class='subview-right left'>
 		<div class='view-summary'>
-			<h5 class='test-name'></h5>
+			<h5 class='test-username'></h5>
 
 			<div id='step-filters' class="right">
 				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
@@ -430,7 +430,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.AssertionError</span>
+                                <span class='exception-username'>java.lang.AssertionError</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -488,7 +488,7 @@
                         </li>
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.RuntimeException</span>
+                                <span class='exception-username'>java.lang.RuntimeException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -544,7 +544,7 @@
 
     <div class='subview-right left'>
         <div class='view-summary'>
-            <h5 class='exception-name'></h5>
+            <h5 class='exception-username'></h5>
         </div>
     </div>
 </div>

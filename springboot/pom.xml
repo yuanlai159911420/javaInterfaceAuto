@@ -37,44 +37,55 @@
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
         </dependency>
+<!--        临时添加-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.9</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version>
+        </dependency>
     </dependencies>
 
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-web</artifactId>-->
-<!--            <version>2.6.7</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/spring-boot-starter-web-2.6.7.jar</systemPath>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter</artifactId>-->
-<!--            <version>2.6.7</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/spring-boot-starter-2.6.7.jar</systemPath>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-json</artifactId>-->
-<!--            <version>2.6.7</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/spring-boot-starter-json-2.6.7.jar</systemPath>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-logging</artifactId>-->
-<!--            <version>2.6.7</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/spring-boot-starter-logging-2.6.7.jar</systemPath>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
-<!--            <version>2.6.7</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/spring-boot-starter-tomcat-2.6.7.jar</systemPath>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
+    <!--    <dependencies>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter-web</artifactId>-->
+    <!--            <version>2.6.7</version>-->
+    <!--            <scope>system</scope>-->
+    <!--            <systemPath>${basedir}/lib/spring-boot-starter-web-2.6.7.jar</systemPath>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter</artifactId>-->
+    <!--            <version>2.6.7</version>-->
+    <!--            <scope>system</scope>-->
+    <!--            <systemPath>${basedir}/lib/spring-boot-starter-2.6.7.jar</systemPath>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter-json</artifactId>-->
+    <!--            <version>2.6.7</version>-->
+    <!--            <scope>system</scope>-->
+    <!--            <systemPath>${basedir}/lib/spring-boot-starter-json-2.6.7.jar</systemPath>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter-logging</artifactId>-->
+    <!--            <version>2.6.7</version>-->
+    <!--            <scope>system</scope>-->
+    <!--            <systemPath>${basedir}/lib/spring-boot-starter-logging-2.6.7.jar</systemPath>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
+    <!--            <version>2.6.7</version>-->
+    <!--            <scope>system</scope>-->
+    <!--            <systemPath>${basedir}/lib/spring-boot-starter-tomcat-2.6.7.jar</systemPath>-->
+    <!--        </dependency>-->
+    <!--    </dependencies>-->
 
 </project>

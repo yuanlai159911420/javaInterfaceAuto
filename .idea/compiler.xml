@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MybatisMySQL" />
+        <module name="javaTestNG" />
+        <module name="testNGMyBatis" />
         <module name="httpClientInterfaces" />
         <module name="extentReports" />
         <module name="springboot" />
         <module name="Mybatis" />
-        <module name="javaTestNG" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,10 +25,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Mybatis" options="-parameters" />
+      <module name="MybatisMySQL" options="-parameters" />
       <module name="extentReports" options="-parameters" />
       <module name="httpClientInterfaces" options="-parameters" />
       <module name="javaTestNG" options="-parameters" />
       <module name="springboot" options="-parameters" />
+      <module name="testNGMyBatis" options="-parameters" />
     </option>
   </component>
 </project>
